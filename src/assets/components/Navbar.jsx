@@ -1,10 +1,10 @@
 import { Link } from 'react-router-dom'
-
+import cakeLogo from '../images/happy-cake.png'
 
 const Navbar = () => {
     return (
         <div className="nav">
-            <div className="logo"><img src='../src/assets/images/happy-cake.png' /></div>
+            <div className="logo"><img src={cakeLogo} /></div>
 
 
             <div className="menu">
